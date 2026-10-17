@@ -236,9 +236,11 @@ options:
 ```
 ## Architecture Context
 
-This tool addresses common Kafka debugging scenarios described in my architecture guide — particularly around consumer lag interpretation, topic inspection, and detecting idempotency failures (duplicates).
+This tool addresses common Kafka debugging scenarios described in my architecture guide, particularly around consumer lag interpretation, topic inspection, and detecting idempotency failures (duplicates).
 
 **Full guide:** [Apache Kafka® Architecture Leadership](https://www.novatechflow.com/p/kafka-architecture-leadership.html)
+
+**Related posts:** [AI Agents On Kafka Are Only As Smart As Your Architecture](https://www.novatechflow.com/2025/12/ai-agents-on-kafka-are-only-as-smart-as.html) and [Why We Built Our Multi-Agent System on Kafka](https://www.novatechflow.com/2026/02/why-we-built-our-multi-agent-system-on.html) (consumer lag as the primary health metric)
 
 ### When to Use
 
@@ -251,6 +253,8 @@ This tool addresses common Kafka debugging scenarios described in my architectur
 | "What's actually in this topic?" | `--peek 10` |
 
 ---
+
+Related: [KafScale](https://kafscale.io), Kafka-compatible streaming that keeps your data in S3, and [Lascaris](https://www.scalytics.io/lascaris), a Kafka-native platform for AI agents with every decision on the record.
 
 **Running Kafka in production?**
 
