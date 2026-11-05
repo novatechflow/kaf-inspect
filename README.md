@@ -242,6 +242,9 @@ This tool addresses common Kafka debugging scenarios described in my architectur
 
 **Related posts:** [AI Agents On Kafka Are Only As Smart As Your Architecture](https://www.novatechflow.com/2025/12/ai-agents-on-kafka-are-only-as-smart-as.html) and [Why We Built Our Multi-Agent System on Kafka](https://www.novatechflow.com/2026/02/why-we-built-our-multi-agent-system-on.html) (consumer lag as the primary health metric)
 
+- Blog post: [Find duplicate Kafka messages and check consumer lag](https://www.novatechflow.com/2026/10/find-duplicate-kafka-messages-and-check.html)
+
+
 ### When to Use
 
 | Scenario | Command |
